@@ -1,0 +1,137 @@
+{
+	"features": [
+		{
+			"name": "",
+			"acronym": "",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "",
+			"value_dolar": "",
+			"BTC_EUR": "433.15",
+			"change": "",
+			"url": "",
+			"icon": "",
+			"id": ""
+		}, {
+			"name": "Bitcoin",
+			"acronym": "BTC",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "1.00",
+			"value_dolar": "584.69",
+			"BTC_EUR": "433.15",
+			"change": "-6.32 %",
+			"url": "http://www.bitcoin.org",
+			"icon": "bitcoin",
+			"id": "1"
+		}, {
+			"name": "Ripple",
+			"acronym": "XRP",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "2.498e-05",
+			"value_dolar": "0.015",
+			"BTC_EUR": "433.15",
+			"change": "-3.80 %",
+			"url": "https://ripple.com/currency/",
+			"icon": "ripple",
+			"id": "2"
+		}, {
+			"name": "Litecoin",
+			"acronym": "LTC",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "0.02488",
+			"value_dolar": "14.54",
+			"BTC_EUR": "433.15",
+			"change": "-7.02 %",
+			"url": "http://litecoin.org",
+			"icon": "litecoin",
+			"id": "3"
+		}, {
+			"name": "Peercoin",
+			"acronym": "PPC",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "0.006524",
+			"value_dolar": "3.81",
+			"BTC_EUR": "433.15",
+			"change": "-5.37 %",
+			"url": "http://www.peercoin.net",
+			"icon": "peercoin",
+			"id": "4"
+		}, {
+			"name": "Dogecoin",
+			"acronym": "DOGE",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "2.194e-06",
+			"value_dolar": "0.0013",
+			"BTC_EUR": "433.15",
+			"change": "-6.40 %",
+			"url": "http://dogecoin.com/",
+			"icon": "dogecoin",
+			"id": "5"
+		}, {
+			"name": "Nxt",
+			"acronym": "NXT",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "9.476e-05",
+			"value_dolar": "0.055",
+			"BTC_EUR": "433.15",
+			"change": "-7.05 %",
+			"url": "http://nxtcrypto.org/",
+			"icon": "nxt",
+			"id": "6"
+		}, {
+			"name": "Mastercoin",
+			"acronym": "MSC",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "0.11",
+			"value_dolar": "63.90",
+			"BTC_EUR": "433.15",
+			"change": "+0.15 %",
+			"url": "http://www.mastercoin.org/",
+			"icon": "mastercoin",
+			"id": "7"
+		}, {
+			"name": "Namecoin",
+			"acronym": "NMC",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "0.005866",
+			"value_dolar": "3.43",
+			"BTC_EUR": "433.15",
+			"change": "-8.85 %",
+			"url": "http://namecoin.info",
+			"icon": "namecoin",
+			"id": "8"
+		}, {
+			"name": "ProtoShares",
+			"acronym": "PTS",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "0.03064",
+			"value_dolar": "17.91",
+			"BTC_EUR": "433.15",
+			"change": "+15.18 %",
+			"url": "http://protoshares.com",
+			"icon": "protoshares",
+			"id": "9"
+		}, {
+			"name": "Quark",
+			"acronym": "QRK",
+			"last_update": "2014-02-20 16:41:20",
+			"value": "1",
+			"value_bitcoin": "0.0001072",
+			"value_dolar": "0.063",
+			"BTC_EUR": "433.15",
+			"change": "-5.29 %",
+			"url": "http://qrk.cc/",
+			"icon": "quark",
+			"id": "10"
+		}
+	]
+}

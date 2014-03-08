@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>CƎ Account</title>
+		<meta name="descripcion" content="Aplicación para saber cúanto dinero tienes invertido en Crypto-Monedas">
+		<meta name="description" content="App to know how much money you have invested in AltCoins">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<!-- <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"> -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" > -->
+		<!-- ONLY iOS 7!!!!!! -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /> 
+		<link rel="stylesheet" href="css/lungo.css">
+		<link rel="stylesheet" href="css/lungo.icon.css">
+		<link rel="stylesheet" href="css/lungo.theme.css">
+		<link rel="stylesheet" href="css/crypto.theme.css">
+		<link rel="apple-touch-startup-image" href="img/icons/Default~iphone.png">
+		<link rel="shortcut icon" href="img/icons/cryptocoin.png">
+		<link rel="apple-touch-icon" href="img/icons/cryptocoin.png">
+	</head>
+	<body class = "app">
+		<section id = "main" data-transition = "slide" data-pull = "arrow-down" class = "show">
+
+			<header data-title="CƎ Accounting BETA" id = 'crypto-header'>
+				<img id = "logo_header" src="img/icons/cryptocoin.png">
+				<nav id = "on-right" class="on-right">
+					<button id = 'share_sn' data-view-section="share">
+						<span class="icon share"></span>
+					</button>
+				</nav>
+			</header>
+
+			<footer>
+				<nav>
+					<a href="#" data-view-article='main-article' data-icon="money" class="active" ></a>
+					<a href="#" data-view-article='my-wallet-art' data-icon="briefcase" id = 'mi_cartera'>
+						<span id = "tag_count" class="tag count"></span></a>
+					<a href="#" data-view-article='form-settings' data-icon="cog" id = 'configuracion'></a>
+				</nav>
+			</footer>
+
+			<article id = 'main-article' class = 'active list scroll'>
+				<div class="form">
+					<fieldset data-icon="search">
+						<span class="icon search"></span>
+						<input type="text" id = 'my_text' placeholder="Type something to search...">
+					</fieldset>
+				<ul data-type="list" id = "lista_busqueda" >
+					<li class="anchor"><span id = "last-update-date"></span></li>
+				</ul>
+				</div>
+				<div id="loading"></div>
+			</article>
+
+			<article id = 'my-wallet-art' class = 'scroll'>
+				<div class="wrapper bg_white framed">
+					<img id = "e-wallet" src='img/icons/wallet-icon.ico'></img>
+					<h2 id="my_wallet">My Wallet</h2></br>
+					<table id = "description2">
+						<tbody>
+							<tr>
+								<td>
+								<table style="font-size:11px;">
+									<tbody>
+										<tr>
+											<td id = 'my_labels3'>Bitcoins (฿)</td>
+											<td class="point2"><span id = 'bitcoins_wallet' class = 'coins_wallet'>0</span></td>
+										</tr>
+										<tr>
+											<td id = 'my_labels3'>Euros (€)</td>
+											<td class="point2"><span id = 'euros_wallet' class = 'coins_wallet'>0</span></td>
+										</tr>
+										<tr>
+											<td id = 'my_labels3'>Dollars ($)</td>
+											<td class="point2"><span id = 'dollars_wallet' class = 'coins_wallet'>0</span></td>
+										</tr>
+									</tbody>
+								</table></td>
+							</tr>
+						</tbody>
+					</table></br>
+					<span class="margin_right" id = 'my_labels'>CryptoCoins in Wallet</span></br>
+					<table id = "dinamic_table">
+						<tbody>
+							<tr>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>				
+					<!-- <ul data-type="list" id = "lista_monedas" ></ul> -->
+				</div>
+			</article>
+
+			<article id = 'form-settings'>
+				<div>
+				<form>
+					<fieldset>
+						<label class="anchor">Auto refresh</label>
+						<input type="checkbox" id = 'set_auto_refresh' class="inline right">
+					</fieldset>
+					<fieldset>
+						<label class="select border">
+							<select id = "time_refresh">
+								<option value = "1">1 minute</option>							
+								<option value = "2">2 minutes</option>
+								<option value = "4">4 minutes</option>
+								<option value = "6">6 minutes</option>
+								<option value = "8">8 minutes</option>
+								<option value = "10">10 minutes</option>
+							</select></label>
+					</fieldset>
+				</form>
+				<a href = "#" id = "restore_defaults" class="button anchor cancel" data-label="Reset defaults" data-action="error"></a>
+				</div>
+				<div id = "logo_crypto">
+					<img id = "logo_crypto2" src = "img/icons/cryptocoin_logo.png">
+				</div>		
+				<div id = "link_forum">
+					<a href='http://www.crypto-exchange.es' onclick="window.open(this.href,'_system'); return false;" id = 'my_more_info' class="margin_right">www.crypto-exchange.es</a>
+					<!-- <a href='http://www.crypto-exchange.es' onclick="window.open(this.href,'_system'); return false;"  id = 'my_more_info' class="margin_right">www.crypto-exchange.es</a> -->
+					<!-- <a href='#' onclick="var ref = window.open('http://www.bitcoin.org', '_system');"  id = 'my_more_info' class="margin_right">www.crypto-exchange.es</a> -->					
+					<!-- <a href='http://www.crypto-exchange.es' data-rel="external" id = 'my_more_info' class="margin_right">www.crypto-exchange.es</a> -->
+				</div>		
+				<span id = "developed" class="copyright text thin text bold">Developed by AM SOFT 2014 - <span >powered by LungoJS</span></span>
+			</article>
+
+		</section>
+		<script src="js/quo.js"></script>
+		<script src="js/lungo.js"></script>
+		<script src="js/plugins.js"></script>
+		<script>
+			function isNumberKey(e) {
+				var tecla = (document.all) ? e.keyCode : e.which;
+
+				if (tecla == 8 || tecla == 0) {
+					return true;
+				}
+
+				var patron = /([0-9\.])/;
+				var te = String.fromCharCode(tecla);
+
+				return patron.test(te);
+			}
+		</script>
+		<script src="app/js/main.js"></script>
+		<script src="app/js/events.js"></script>
+		<script src="app/js/bbdd.js"></script>
+		<script src="app/js/dom_manipulate.js"></script>
+		<script src="app/js/refresh.js"></script>
+		<script src="app/js/init.js"></script>
+	</body>
+</html>

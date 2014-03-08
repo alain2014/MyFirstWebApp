@@ -1,0 +1,288 @@
+strong.my_settings {
+	text-decoration: none;
+	color: #999
+}
+span.blue {
+	background-color: #007db5;
+	color: #FFF;
+	font-size: 11px;
+	-webkit-border-radius: 2px;
+	text-align: center;
+	padding: 0 3px
+}
+#restore_defaults {
+	background-color: #e74c3c;
+	-webkit-border-radius: 2px
+}
+#my_more_info {
+	color: #00afe3;
+	font-size: small
+}
+#my_element {
+	margin-left: 4px;
+	font-weight: 700;
+	height: 100%;
+	width: 100%
+}
+.title.centered {
+	color: #4D4D4D;
+	text-shadow: rgba(0,0,0,0.5) 0 -1px 0
+}
+#crypto-header {
+	background: #FCFCFC -webkit-gradient(linear, left top, left bottom, color-stop(0, #FCFCFC), color-stop(1, #ECECEC));
+	-moz-border-radius: 8px 8px 0 0;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), inset 0 -1px rgba(0,0,0,0.5)
+}
+/*section header > nav.on-right button {
+	color: rgba(180,180,180,0.6);
+	text-shadow: rgba(255,255,255,1) 0 1px 0
+}*/
+.list li.anchor {
+	background: #222;
+	/*line-height: .9em;*/
+	color: #222
+}
+#loading {
+	height: 100%;
+	text-align: center
+}
+.loading {
+	font-size: 24px;
+	top: 35%;
+	margin-top: -1em
+}
+#lista_monedas {
+	margin-left: 18px;
+	list-style: none;
+	margin-top: 10px
+}
+#e-wallet {
+	max-width: 50px;
+	max-height: 50px;
+	margin-left: 10px
+}
+h2 {
+	font: 22px/1.25 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+.bg_white {
+	background-color: #FFF;
+	color: #4D4D4D;
+	/*display: inline-block;*/
+}
+.wrapper > * {
+	margin: 5px 0
+}
+#coin-detail-art button abbr {
+	color: #4D4D4D !important
+}
+#coin-det {
+	max-width: 40px;
+	max-height: 40px;
+	float: left
+}
+#my_title {
+	display: inline;
+	margin-left: 8px;
+	font-size: xx-large;
+	float: left;
+	margin-top: -2px
+}
+#my_wallet {
+	display: inline
+}
+#mi_calendario {
+	float: left;
+	margin-top: 10px;
+	font-size: 12px
+}
+#my_date, #my_time, #my_date_icon {
+	margin-top: 10px;
+	float: left;
+	margin-left: 5px;
+	font-size: 12px
+}
+.notification .window.html button[data-action=close] {
+	color: #000
+}
+#share-list {
+	list-style: none
+}
+#actual_value_usd {
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	text-align: left;
+	margin-top: 2px;
+	margin-left: 10px;
+	font-weight: 700
+}
+#actual_change_green {
+	color: green;
+	font-size: 1em;
+	font-weight: 700
+}
+#actual_change_red {
+	color: red;
+	font-size: 1em;
+	font-weight: 700
+}
+#developed {
+	position: absolute;
+	width: 100%;
+	bottom: 55px;
+	left: 0;
+	font-size: 8px;
+	text-align: center;
+	letter-spacing: 0.3em;
+	padding: 0
+}
+#share_bt {
+	background: #FCFCFC -webkit-gradient(linear, left top, left bottom, color-stop(0, #FCFCFC), color-stop(1, #ECECEC));
+	-moz-border-radius: 8px 8px 0 0;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), inset 0 -1px rgba(0,0,0,0.5);
+	color: #000
+}
+#share_abbr {
+	color: #4D4D4D
+}
+#share_ico {
+	opacity: 100
+}
+.point2 {
+	font-size: 16px;
+	margin-left: 8px;
+	text-align: right
+}
+#description2 {
+	margin-left: 8px
+}
+#link_forum {
+	margin-top: 10px;
+	text-align: center
+}
+#form2 {
+	margin-top: 10px
+}
+.text.tiny {
+	font-size: .8em;
+	color: #000;
+	margin-left: 5px
+}
+#coin-det2 {
+	margin-left: 8px;
+	margin-top: 8px
+}
+#my_more_info2 {
+	color: #00afe3;
+	float: left
+}
+#logo_crypto {
+	text-align: center;
+	margin-top: 14px
+}
+#logo_crypto2 {
+	max-width: 80px;
+	max-height: 80px;
+	margin-top: -5px
+}
+#dinamic_table {
+	font-size: small;
+	margin-left: 6px
+}
+#my_labels2 {
+	font-weight: 700;
+	margin-left: 8px;
+	text-align: left;
+	font-size: small
+}
+#on-right {
+	float: right
+}
+#alinea_dec {
+	text-align: right
+}
+#logo_header {
+	max-width: 20px;
+	max-height: 20px;
+	margin-top: -6px;
+	margin-left: 4px
+}
+.coins_wallet {
+	font: 16px/1.25 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 50px
+}
+#my_labels3 {
+	margin-left: 8px;
+	text-align: left;
+	font: 16px/1.25 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700
+}
+#last-update-date {
+	color: #FFF;
+	font-size: 12px;
+	letter-spacing: .05em;
+	vertical-align: text-top
+}
+/*#my_different_coins {
+	margin-left: 8px;
+	font: 16px/1.25 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700
+}*/
+#my_labels {
+	font-weight: 700;
+	margin-left: 8px;
+	text-align: left;
+	font-size: 14px
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0
+}
+#second-article, #coin-detail-art, #form-settings, #my-wallet-art {
+	background-color: #FFF
+}
+
+.list li.anchor {
+padding: .15em .5em;
+}
+
+
+
+@media screen and (max-device-width : 480px) 
+{
+	#logo_crypto2 {
+		max-width: 50px;
+		max-height: 50px;
+		margin-top: -5px;
+	}
+
+}
+
+#coin-detail-art {
+	position: absolute;
+	width:100%;
+}
+
+#lista_busqueda {
+	overflow-x:hidden;
+	width: 100%;
+	position: relative;
+}
+
+#dinamic_table {
+	width:100%;	
+}
+
+#description2 {
+	width:100%;
+}
+
+#tag_count {
+	visibility:hidden;
+}
